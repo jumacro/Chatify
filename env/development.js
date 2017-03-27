@@ -1,9 +1,4 @@
-'use strict';
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-var devConfig = {
+const devConfig = {
   env: 'development',
   MONGOOSE_DEBUG: true,
   db: 'mongodb://localhost:27017/chat-server-dev',
@@ -11,10 +6,11 @@ var devConfig = {
   security: {
     encryptions: {
       encrypt_type: 'sha256',
-      encrypt_key: '4b 8?((~FKnpD))>8kb!B |#-uXIO24G3rc:&MG+FR{x;r#Uq4k{Ef@F4E9^-qS!' },
+      encrypt_key: '4b 8?((~FKnpD))>8kb!B |#-uXIO24G3rc:&MG+FR{x;r#Uq4k{Ef@F4E9^-qS!', //change hash key
+    },
     api: {
       appId: 'chat-server',
-      appSecret: 'lDbIABCaFam58d!F5c#V1G6UEL69)Pds'
+      appSecret: 'lDbIABCaFam58d!F5c#V1G6UEL69)Pds',
     },
     tokenLife: 3600
   },
@@ -24,6 +20,4 @@ var devConfig = {
   apiVersion: 'v0.1'
 };
 
-exports.default = devConfig;
-module.exports = exports['default'];
-//# sourceMappingURL=development.js.map
+export default devConfig;

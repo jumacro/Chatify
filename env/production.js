@@ -1,19 +1,15 @@
-'use strict';
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-var prodConfig = {
+const prodConfig = {
   env: 'production',
   db: 'mongodb://localhost:27017/chat-server-prod',
   port: 3000,
   security: {
     encryptions: {
       encrypt_type: 'sha256',
-      encrypt_key: '4b 8?((~FKnpD))>8kb!B |#-uXIO24G3rc:&MG+FR{x;r#Uq4k{Ef@F4E9^-qS!' },
+      encrypt_key: '4b 8?((~FKnpD))>8kb!B |#-uXIO24G3rc:&MG+FR{x;r#Uq4k{Ef@F4E9^-qS!', //change hash key
+    },
     api: {
       appId: 'chat-server',
-      appSecret: 'lDbIABCaFam58d!F5c#V1G6UEL69)Pds'
+      appSecret: 'lDbIABCaFam58d!F5c#V1G6UEL69)Pds',
     },
     tokenLife: 3600
   },
@@ -23,6 +19,4 @@ var prodConfig = {
   apiVersion: 'v0.1'
 };
 
-exports.default = prodConfig;
-module.exports = exports['default'];
-//# sourceMappingURL=production.js.map
+export default prodConfig;

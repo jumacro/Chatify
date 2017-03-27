@@ -1,1 +1,0 @@
-{"version":3,"sources":["server/Routes/Sticker.js"],"names":["router","Router","route","get","getAll"],"mappings":";;;;;;AAAA;;;;AAGA;;;;;;AAEA,IAAMA,SAAS,kBAAQC,MAAR,EAAf,C,CAAiC;;AAJjC;AACA;AAKAD,OAAOE,KAAP,CAAa,GAAb;AACE;AADF,CAEGC,GAFH,CAEO,kBAAQC,MAFf;;kBAIeJ,M","file":"Sticker.js","sourceRoot":"../../../../.."}
