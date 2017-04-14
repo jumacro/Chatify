@@ -1,1 +1,0 @@
-{"version":3,"sources":["server/Plugins/SiberianApi.js"],"names":["Uri","postNotification","postData","requestUri"],"mappings":";;;;;;AAAA;;;;;;AAEA;;;;;;;AAOA,IAAMA,MAAM,yEAAZ;AACA;;AAEA,SAASC,gBAAT,CAA0BC,QAA1B,EAAoC;AAClC,MAAMC,aAAgBH,GAAhB,qBAAmCE,QAAzC;AACA,SAAO,8BAAQC,UAAR,CAAP;AACD;;kBAEc,EAAEF,kCAAF,E","file":"SiberianApi.js","sourceRoot":"../../../../.."}
