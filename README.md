@@ -6,7 +6,7 @@ This is a API and chat application using ES6 and Express with Code Coverage and 
 Inspired from [Kunal Kapadia ES6 boilerplate](https://github.com/KunalKapadia/express-mongoose-es6-rest-api).
 Follows [Airbnb's Javascript style guide](https://github.com/airbnb/javascript).
 
-### Features
+### Code Features
 
 | Feature                                | Summary                                                                                                                                                                                                                                                     |
 |----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -23,6 +23,14 @@ Follows [Airbnb's Javascript style guide](https://github.com/airbnb/javascript).
 - CORS support via [cors](https://github.com/expressjs/cors)
 - Uses [http-status](https://www.npmjs.com/package/http-status) to set http status code. It is recommended to use `httpStatus.INTERNAL_SERVER_ERROR` instead of directly using `500` when setting status code.
 - Has `.editorconfig` which helps developers define and maintain consistent coding styles between different editors and IDEs.
+
+### Chat Features
+
+1. Support for group chat
+2. Support for private chat
+3. Delivery and Receipt notifications
+4. Disconnect handling
+5. Message pagination and compatibility with Window read view (Mobile/Desktop)
 
 ## Getting Started
 
