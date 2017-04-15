@@ -92,4 +92,9 @@ Logs detailed info about each api request to console during development.
 
 
 #### Error logging
-Logs stacktrace of error to console along with other details. 
+Logs stacktrace of error to console along with other details.
+
+#### To do 
+1. Class approach for Socket Server
+2. Audio and Video Support for chat
+3. Chat Media controller
