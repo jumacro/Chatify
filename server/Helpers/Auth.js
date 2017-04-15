@@ -1,12 +1,12 @@
 import passport from 'passport';
 import passportJwt from 'passport-jwt';
-import config from '../../env';
+import apiConfig from '../../config/config';
 import User from '../Models/User';
 
 class Auth {
 
   constructor() {
-    this.tokenKey = config.security.api.appSecret;
+    this.tokenKey = apiConfig.security.api.appSecret;
     this.extractJwt = passportJwt.ExtractJwt;
     this.jwtOptions = {
       jwtFromRequest: this.extractJwt.fromAuthHeader(),

@@ -5,7 +5,7 @@ import constants from '../../config/constants';
 import Message from './Message';
 import Unseen from './Unseen';
 
-// const debug = require('debug')('easyappchat-server:index');
+// const debug = require('debug')('chatify-server:index');
 
 /**
 * Room schema

@@ -15,7 +15,7 @@ import mongoose from 'mongoose';
 
 /** Initialize the debugger */
 
-// const debug = require('debug')('easyappchat-server:index');
+// const debug = require('debug')('chatify-server:index');
 
 
 /** Set primary objects */

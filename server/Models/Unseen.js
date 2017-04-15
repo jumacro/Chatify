@@ -1,7 +1,7 @@
 import Promise from 'bluebird';
 import mongoose from 'mongoose';
 
-// const debug = require('debug')('easyappchat-server:index');
+// const debug = require('debug')('chatify-server:index');
 
 /**
 * Unseen schema

@@ -2,7 +2,7 @@ import Promise from 'bluebird';
 import mongoose from 'mongoose';
 import DateProcess from '../Helpers/DateProcess';
 
-// const debug = require('debug')('easyappchat-server:index');
+// const debug = require('debug')('chatify-server:index');
 
 /**
 * Message schema
